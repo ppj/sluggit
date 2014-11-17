@@ -7,5 +7,5 @@ Gem::Specification.new do |s|
   s.author      = 'Prasanna Joshi'
   s.email       = 'prasanna3003@hotmail.com'
   s.files       = ['lib/slugable_ppj.rb']
-  s.homepage    = 'http://www.github.com/ppj'
+  s.homepage    = 'https://github.com/ppj/sluggit'
 end
