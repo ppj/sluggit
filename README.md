@@ -1,7 +1,7 @@
 sluggit
 =======
 
-Simple gem to slugify based on any model attribute
+Simple gem for Rails projects to slugify URLs based on any model attribute
 
 Pre-requisite:
 The model that needs to be slugified has to have a column titled 'slug' in its table.
@@ -15,7 +15,9 @@ Note: Replace the `:users` with the appropriate model name
 
 3. Run `bundle exec rake db:migrate` to add the column
 
-4. Add the following code to the model class which you want to slugify:
+4. Add the line `require 'slugable'` to application.rb to enable inclusion in any model
+
+5. Add the following code to the model class which you want to slugify:
 
 ``` ruby
 include Slugable
